@@ -19,6 +19,7 @@
             padding: 80px;
             border-radius: 15px;
             color: white;
+            text-align: center;
         }
         input{
             padding: 15px;
@@ -54,6 +55,7 @@
         <br><br>
         <button>Enviar</button>
     </div>
+    
     
 </body>
 </html>
