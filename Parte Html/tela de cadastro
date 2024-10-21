@@ -23,7 +23,7 @@
 
         .imagem {
             flex: 1; /* Ocupa metade da tela */
-            background-image: url('iolanda search.jfif'); /* Substitua pelo caminho da sua imagem */
+            background-image: url('iolanda search.jpg'); /* Substitua pelo caminho da sua imagem */
             background-size: cover; /* Faz a imagem cobrir todo o espaço */
             background-position: center; /* Centraliza a imagem */
         }
@@ -32,13 +32,14 @@
             border: none;
             outline: none;
             font-size: 15px;
-            width: 40%;
+            width:60%;
             border-radius: 10px;
             color: rgba(31, 29, 29, 0.856);
             background-color: rgba(255, 240, 255, 0.9);
             /* text-align: center; Centraliza o conteúdo horizontalmente */
             position: relative;
             top: 40%;
+            left: 20%;
             
             
                       
@@ -52,14 +53,25 @@
             color: rgb(255, 240, 255);
             font-size: 15px;
             position: absolute;
-            left: 26%;
-            top: 60%;
+            left: 22%;
+            top: 70%;
+        }
+        button:hover{
+            background-color: rgba(81,112,255,1);
+            cursor: pointer;
         }
         h1{
             text-align: center;
+            color: antiquewhite;
             text-shadow: 5px 5px 5px  rgb(67, 10, 113);;
             position: absolute;
-            top: 30%;
+            top: 20%;
+            left: 20%;
+        }
+        .label{
+            position: absolute;
+            top: 39%;
+            left: 11%;
         }
       
     </style>
@@ -69,15 +81,17 @@
     <div class="texto">
         <h1>Cadastro</h1>
         <br>
-        <label>E-mail</label>
-        <br><br>
         <input type="text" placeholder="E-mail">
         <br><br>
-        <label>Senha</label>
         <br><br>
         <input type="password" placeholder="Senha">
         <br><br><br>
         <button>Enviar</button>
+    </div>
+    <div class="label">
+        <label>E-mail</label>
+        <br><br><br><br><br><br>
+        <label>Senha</label>
     </div>
     <div class="imagem"></div>
 
